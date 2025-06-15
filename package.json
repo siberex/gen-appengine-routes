@@ -1,0 +1,42 @@
+{
+  "name": "appengine_static_handlers_generator",
+  "version": "1.0.0",
+  "description": "Using static directory as an input automatically generates static handlers yaml to include in the main GAE deployment config",
+  "keywords": [
+    "google",
+    "app",
+    "engine",
+    "gae",
+    "static",
+    "handlers",
+    "route",
+    "routes",
+    "appengine",
+    "generator",
+    "script",
+    "automation",
+    "url",
+    "config",
+    "cloud",
+    "configuration"
+  ],
+  "homepage": "https://github.com/siberex/gen-appengine-routes#readme",
+  "bugs": {
+    "url": "https://github.com/siberex/gen-appengine-routes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siberex/gen-appengine-routes.git"
+  },
+  "license": "Apache-2.0",
+  "author": "Stephen Jingle <sib.li>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "static": "echo \"NOT IMPLEMENTED\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3"
+  }
+}
